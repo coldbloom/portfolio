@@ -96,7 +96,7 @@ const FirstPage = () => {
                     >
                         {/*title*/}
                         <animated.div style={props}>
-                            <div className='flex flex-col items-center pt-20 pb-28 md:pt-10 md:pb-10'>
+                            <div className='flex flex-col items-center pt-10 pb-10 md:pt-10 md:pb-10'>
                                 <div className={cn('border-2 border-green-800 w-fit md:px-6 px-2 pt-1 pb-2', s.half)}>
                                     <h1 className='font-bold text-center text-3xl text-black'>Константин Колесник</h1>
                                 </div>
