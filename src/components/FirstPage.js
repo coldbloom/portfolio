@@ -105,7 +105,7 @@ const FirstPage = () => {
                                         output: [1, 0.97, 0.9, 1.1, 0.9, 1.1, 1.03, 1],
                                     }),
                                 }}
-                                className='flex flex-row border items-center bg-gray-300 px-4 py-2 pb-3 rounded mb-8'>
+                                className='flex flex-row border items-center bg-gray-300 px-4 pt-2 pb-3 rounded mb-8'>
                                 <AiFillGithub size={22}/>
                                 <a href="https://github.com/coldbloom">
                                     <p className='underline text-xl pl-1 leading-10'>
@@ -137,7 +137,7 @@ const FirstPage = () => {
                                         output: [1, 0.97, 0.9, 1.1, 0.9, 1.1, 1.03, 1],
                                     }),
                                 }}
-                                className='flex flex-row border items-center bg-gray-300 px-4 pt-2 pb-3 rounded mb-4'
+                                className='flex flex-row border items-center bg-gray-300 px-4 pt-2 pb-3 rounded'
                             >
                                 <MdManageAccounts size={22}/>
                                 <p className='underline text-xl pl-1 leading-10'>Подробнее обо мне</p>
