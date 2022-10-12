@@ -105,7 +105,7 @@ const FirstPage = () => {
                                         output: [1, 0.97, 0.9, 1.1, 0.9, 1.1, 1.03, 1],
                                     }),
                                 }}
-                                className='flex flex-row border items-center bg-gray-300 px-4 pt-2 pb-3 rounded mb-8'>
+                                className={cn('flex flex-row border items-center bg-gray-300 px-4 pt-2 pb-3 rounded mb-8', s.btnOne)}>
                                 <AiFillGithub size={22}/>
                                 <a href="https://github.com/coldbloom">
                                     <p className='underline text-xl pl-1 leading-10'>
@@ -121,7 +121,7 @@ const FirstPage = () => {
                                         output: [1, 0.97, 0.9, 1.1, 0.9, 1.1, 1.03, 1],
                                     }),
                                 }}
-                                className='flex flex-row border items-center bg-gray-300 px-4 pt-2 pb-3 rounded mb-8'>
+                                className={cn('flex flex-row border items-center bg-gray-300 px-4 pt-2 pb-3 rounded mb-8', s.btnTwo)}>
                                 <AiOutlineFundProjectionScreen size={22}/>
                                 <a href="https://versel-hqe2.vercel.app/">
                                     <p className='underline text-xl pl-1 leading-10'>
@@ -137,7 +137,7 @@ const FirstPage = () => {
                                         output: [1, 0.97, 0.9, 1.1, 0.9, 1.1, 1.03, 1],
                                     }),
                                 }}
-                                className='flex flex-row border items-center bg-gray-300 px-4 pt-2 pb-3 rounded'
+                                className={cn('flex flex-row border items-center bg-gray-300 px-4 pt-2 pb-3 rounded', s.btnThird)}
                             >
                                 <MdManageAccounts size={22}/>
                                 <p className='underline text-xl pl-1 leading-10'>Подробнее обо мне</p>

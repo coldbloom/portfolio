@@ -18,6 +18,16 @@
         margin-top: 0px!important;
         background-color: blue;
     }
+
+    body .btnOne {
+        margin-bottom: 0;
+    }
+    body .btnTwo {
+        margin-bottom: 0;
+    }
+    body .btnThird {
+        margin-bottom: 0;
+    }
 }
 
 .half {
