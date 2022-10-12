@@ -8,16 +8,16 @@
 }
 
 @media (max-width: 768px) {
-    .footer {
+    body .footer {
         margin-top: -90px!important;
     }
 }
 
-/*@media (min-width: 768px) {*/
-/*    .wLi {*/
-/*        width: 100% !important;*/
-/*    }*/
-/*}*/
+@media only screen and (max-height: 700px) {
+    html body .footer {
+        margin-top: 0px!important;
+    }
+}
 
 .half {
     background-color: rgba(255,255,255,0.5);

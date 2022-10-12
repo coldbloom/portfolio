@@ -74,9 +74,11 @@ const FirstPage = () => {
         }
     })
 
+    console.log(document.documentElement.clientHeight)
+
     return (
-        <div className={s.wrapper}>
-            <div className={s.content}>
+        <div>
+            <div>
                 <animated.div
                     style={mainAnimateProps}
                     className={cn('w-full', s.bgColor)}
