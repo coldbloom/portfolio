@@ -13,9 +13,10 @@
     }
 }
 
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 500px) {
     html body .footer {
         margin-top: 0px!important;
+        background-color: blue;
     }
 }
 
