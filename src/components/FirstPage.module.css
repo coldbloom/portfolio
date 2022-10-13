@@ -15,7 +15,7 @@
 
 @media only screen and (max-height: 550px) {
     html body .footer {
-        margin-top: -90px!important;
+        margin-top: 0px!important;
         background-color: blue;
     }
 
