@@ -76,7 +76,7 @@ const FirstPage = () => {
                         style={translate}
                         className='pt-4 px-4'
                     >
-                        САЙТ&#8209;ПОРТФОЛИО ФРОНТЕНД&#8209;РАЗРАБОТЧИКА
+                        САЙТ&#8209;ПОРТФОЛИО ФРОНТЕНД&#8209;РАЗРАБОТЧИКА {document.documentElement.clientHeight}
                     </animated.p>
 
                     {/*main*/}
