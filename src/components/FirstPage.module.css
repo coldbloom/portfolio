@@ -16,7 +16,24 @@
 @media only screen and (max-height: 550px) {
     html body .footer {
         margin-top: 0px!important;
-        background-color: blue;
+        background-color: red;
+    }
+
+    body .btnOne {
+        margin-bottom: 10px;
+    }
+    body .btnTwo {
+        margin-bottom: 10px;
+    }
+    body .btnThird {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-height: 500px) {
+    html body .footer.footer {
+        margin-top: 0px!important;
+        background-color: pink;
     }
 
     body .btnOne {
@@ -31,7 +48,7 @@
 }
 
 @media only screen and (max-height: 450px) {
-    html body .footer {
+    html body .footer.footer.footer {
         margin-top: 0px!important;
         background-color: blue;
     }
