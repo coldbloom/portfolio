@@ -13,10 +13,10 @@
     }
 }
 
-@media only screen and (max-height: 550px) {
+@media only screen and (max-height: 570px) {
     html body .footer {
-        margin-top: -50px!important;
-        background-color: red;
+        margin-top: -90px!important;
+        background-color: black;
     }
 
     body .btnOne {
@@ -27,6 +27,15 @@
     }
     body .btnThird {
         margin-bottom: 10px;
+    }
+
+    body .btnContainer {
+
+    }
+
+    body .titleContainer {
+        padding-bottom: 32px;
+        padding-top: 20px;
     }
 }
 
