@@ -15,17 +15,34 @@
 
 @media only screen and (max-height: 550px) {
     html body .footer {
-        margin-top: 0px!important;
+        margin-top: -90px!important;
         background-color: blue;
     }
 
     body .btnOne {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
     body .btnTwo {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
     body .btnThird {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-height: 450px) {
+    html body .footer {
+        margin-top: 0px!important;
+        background-color: blue;
+    }
+
+    html body .btnOne {
+        margin-bottom: 5px;
+    }
+    html body .btnTwo {
+        margin-bottom: 5px;
+    }
+    html body .btnThird {
         margin-bottom: 5px;
     }
 }
